@@ -55,17 +55,29 @@ header {
   cursor: default;
 }
 
-.products {
+.products,
+.about-us,
+.our-stores,
+.contact-us {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 20px;
   color: #492e28;
   box-sizing: border-box;
   overflow: hidden;
-  padding-left: 25px;
+  padding: 25px;
   cursor: default;
 }
 
-.product-heading {
+.about-us,
+.our-stores,
+.contact-us {
+  padding: 65px;
+}
+
+.product-heading,
+.about-us h1,
+.our-stores h1,
+.contact-us h1 {
   text-align: center;
   padding: 25px 25px 70px 25px;
   cursor: default;
@@ -103,7 +115,7 @@ header {
 .product-three p {
   border: 1px;
   width: 72%;
-  padding-right: 25%;
+  padding-right: 20%;
   text-align: justify;
   float: right;
   cursor: default;
@@ -115,6 +127,73 @@ header {
   text-decoration: none;
   text-align: justify;
   font-weight: 700;
+}
+
+.about-us p {
+  padding: 25px;
+  text-align: justify;
+  text-indent: 50px;
+  width: 81%;
+  padding-left: 90px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 64%;
+}
+
+th,
+td {
+  border-bottom: 5px solid #492e28;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+}
+
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px 40px;
+  overflow: hidden;
+  padding: 25px 55px;
+  font-weight: 600;
+}
+
+.visitor-name,
+.visitor-email,
+.description,
+.description label .submission {
+  padding: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font-size: 20px;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"] {
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #492e28;
+}
+
+.submission {
+  padding: 15px;
+  text-align: center;
+}
+
+button {
+  padding: 25px;
+  width: 85%;
+  background: #ebe5da;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 footer {
